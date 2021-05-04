@@ -1,6 +1,6 @@
 # This
 
-> This repository gives an explanation to the keyword "this" and the ways it is implemented within Javascript.
+> This repository gives an explanation of the keyword "this" and the ways it is implemented within Javascript.
 
 ---
 
@@ -30,9 +30,9 @@ There are four ways we can use "this".
 Implicit Binding, Explicit Binding, New Binding and Window Binding
 
 Implicit Binding: This is the most common occurrence of "this". When you call 
-a function, look a the left of the "." and that is what the "this" keyword is 
-referencing. Summary: When this is being used, go to the where the function is 
-being called, look the left of the "." .
+a function, look to the left of the "." and that is what the "this" keyword is 
+referencing. Summary: When this is being used, find where the function is 
+being called, look the left of the "." and "this" will be referencing that object.
 
 Explicit Binding: Explicitly stating what "this" is. We can do this using 
 three methods: call, apply and bind.
