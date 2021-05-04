@@ -1,0 +1,28 @@
+What do I know about "this"?
+"This" allows us to reuse functions with different context or in other words, 
+allows us to decide which objects should be focal when calling a function or 
+a method.
+
+First question to ask when trying to identify "this".
+"Where is the function being called?" 
+In order to know what "this" is referencing, you have to know where the 
+function is being called.
+
+There are four ways we can use "this".
+Implicit Binding, Explicit Binding, New Binding and Window Binding
+
+Implicit Binding: This is the most common occurrence of "this". When you call 
+a function, look a the left of the "." and that is what the "this" keyword is 
+referencing. Summary: When this is being used, go to the where the function is 
+being called, look the left of the "." .
+
+Explicit Binding: Explicitly stating what "this" is. We can do this using 
+three methods: call, apply and bind.
+
+New Binding: "new" keyword, when used, has javascript create a brand new object. 
+"this" keyword inside the function is bound to the new object being constructed.
+
+Window Binding: if Implicit, Explicit or New Binding are not present, "this" 
+will point to the window object.
+
+
